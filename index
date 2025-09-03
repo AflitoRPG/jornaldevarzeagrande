@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jornal de Várzea Grande - 2013</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #990000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #000;
+    }
+    nav {
+      background: #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+    .noticia {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    }
+    .noticia h2 {
+      font-size: 18px;
+      color: #990000;
+    }
+    .noticia small {
+      color: #555;
+    }
+    .img-fake {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      margin: 10px 0;
+    }
+    footer {
+      background: #ccc;
+      text-align: center;
+      font-size: 12px;
+      padding: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>JORNAL DE VÁRZEA GRANDE</header>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Polícia</a>
+    <a href="#">Cidade</a>
+    <a href="#">Esportes</a>
+    <a href="#">Classificados</a>
+  </nav>
+
+  <div class="container">
+    <div class="noticia">
+      <h2>Assalto cinematográfico em transportadora de valores</h2>
+      <small>Publicado em 12/03/2013</small>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Armored_truck_in_Brazil.jpg" alt="Carro-forte" class="img-fake">
+      <p>Um grupo de homens armados invadiu uma transportadora de valores em Várzea Grande durante a madrugada desta terça-feira. A ação foi rápida e silenciosa: os criminosos usaram uniformes falsos e conseguiram acessar o cofre central sem disparar um tiro. Estima-se que mais de R$ 5 milhões foram levados. Nenhum suspeito foi identificado até o momento.</p>
+    </div>
+
+    <div class="noticia">
+      <h2>Bando rouba joalheria no centro em menos de 3 minutos</h2>
+      <small>Publicado em 25/07/2013</small>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Jewelry_store_burglarized.jpg" alt="Joalheria assaltada" class="img-fake">
+      <p>Clientes e funcionários foram surpreendidos por quatro homens mascarados que invadiram uma joalheria tradicional no centro de Várzea Grande. O crime ocorreu em plena luz do dia e durou menos de três minutos. Foram levadas peças avaliadas em mais de R$ 800 mil. A polícia acredita que o grupo seja o mesmo responsável por outros assaltos na região, mas ninguém foi preso.</p>
+    </div>
+
+    <div class="noticia">
+      <h2>Caixa eletrônico é explodido em bairro residencial</h2>
+      <small>Publicado em 02/11/2013</small>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/ATM_exploded.jpg" alt="Caixa eletrônico explodido" class="img-fake">
+      <p>Moradores acordaram assustados com a explosão de um caixa eletrônico em um pequeno mercado no bairro Cristo Rei. O impacto foi tão forte que vidraças de casas vizinhas estouraram. A quadrilha levou o dinheiro do terminal, mas o valor não foi revelado. Até agora, não há pistas dos criminosos.</p>
+    </div>
+  </div>
+
+  <footer>
+    Jornal de Várzea Grande © 2013 - Todos os direitos reservados<br>
+    Layout otimizado para Internet Explorer 8 e Orkut
+  </footer>
+</body>
+</html>
